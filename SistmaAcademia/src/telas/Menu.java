@@ -34,11 +34,11 @@ public class Menu extends javax.swing.JFrame {
         jMenu6 = new javax.swing.JMenu();
         jMenu3 = new javax.swing.JMenu();
         jMenu4 = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Janela Menu");
 
-        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Produtos.png"))); // NOI18N
         jMenu1.setText("Produtos");
 
         jMenu5.setText("Camisetas");
@@ -61,12 +61,14 @@ public class Menu extends javax.swing.JFrame {
 
         MenuPrincipal.add(jMenu1);
 
-        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/money.png"))); // NOI18N
         jMenu3.setText("Financeiro");
         MenuPrincipal.add(jMenu3);
 
         jMenu4.setText("Ferramentas");
         MenuPrincipal.add(jMenu4);
+
+        jMenu2.setText("Sair");
+        MenuPrincipal.add(jMenu2);
 
         setJMenuBar(MenuPrincipal);
 
@@ -78,7 +80,7 @@ public class Menu extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 96, Short.MAX_VALUE)
+            .addGap(0, 112, Short.MAX_VALUE)
         );
 
         pack();
@@ -127,6 +129,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JMenuItem Azul;
     private javax.swing.JMenuBar MenuPrincipal;
     private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
