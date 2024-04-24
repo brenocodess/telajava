@@ -66,9 +66,11 @@ public class Menu extends javax.swing.JFrame {
         jMenu3.setText("Financeiro");
         MenuPrincipal.add(jMenu3);
 
+        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/ferramenta.png"))); // NOI18N
         jMenu4.setText("Ferramentas");
         MenuPrincipal.add(jMenu4);
 
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/exit.png"))); // NOI18N
         jMenu2.setText("Sair");
         MenuPrincipal.add(jMenu2);
 
